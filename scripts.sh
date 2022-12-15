@@ -9,3 +9,9 @@ then
     echo " that is not correct"
     exit 1
 fi
+
+
+until [ $a -gt 100 ]
+do 
+    a=`expr a + 1`
+done 
