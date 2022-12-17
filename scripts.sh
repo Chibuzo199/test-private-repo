@@ -10,6 +10,12 @@ then
     exit 1
 fi
 
+if [ $a -gt 10 ]
+then    
+    echo " that is not correct"
+    exit 1
+fi
+
 
 until [ $a -gt 100 ]
 do 
